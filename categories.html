@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grocery store</title>
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+
+    <!-- css link -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- font awesome link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- header section strart here -->
+
+    <header class="header">
+      <a href="#" class="logo"><i class="fas fa-store"></i>store</a>
+
+      <nav class="navbar">
+        <a  href="index.html">home</a>
+        <a href="features.html">features</a>
+        <a href="products.html">products</a>
+        <a class="act" href="categories.html">categories</a>
+        <a href="index.html">reviews</a>
+        <a href="blogs.html">blogs</a>
+      </nav>
+
+      <div class="icons">
+        <div class="fas fa-bars" id="menu-btn"></div>
+        <div class="fas fa-search" id="search-btn"></div>
+        <div class="fas fa-shopping-cart" id="cart-btn"></div>
+        <div class="fas fa-user" id="login-btn"></div>
+      </div>
+
+      <!-- search form  -->
+      <form action="" class="search-form">
+        <input type="text" id="search-box" placeholder="search here...." />
+        <label for="search-box" class="fas fa-search"></label>
+      </form>
+
+      <!-- shopping cart  -->
+      <div class="shopping-cart">
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-1.png" alt="" />
+          <div class="content">
+            <h3>watermelon</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-2.png" alt="" />
+          <div class="content">
+            <h3>onion</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+        <div class="box">
+          <i class="fas fa-trash"></i>
+          <img src="image/cart-img-3.png" alt="" />
+          <div class="content">
+            <h3>chicken</h3>
+            <span class="price">$4.99/-</span>
+            <span class="quantity">qty : 1</span>
+          </div>
+        </div>
+
+        <div class="total">total : $19.5/-</div>
+        <a href="" class="btn">checkout</a>
+      </div>
+
+      <!-- login form  -->
+      <div class="form">
+        <h2>login</h2>
+        <input type="email" name="email" placeholder="type your email" />
+        <input
+          type="password"
+          name="password"
+          placeholder="type your password"
+        />
+        <a href="" class="btn">login</a>
+
+        <p class="link">
+          don't have an account <br />
+          <a href="#"> sign up </a>
+        </p>
+        <p class="liw">log in with:</p>
+
+        <div class="icons">
+          <i class="fab fa-facebook" id="facebook"></i>
+          <i class="fab fa-instagram" id="insta"></i>
+          <i class="fab fa-twitter" id="twitter"></i>
+          <i class="fab fa-youtube" id="youtube"></i>
+          <i class="fab fa-linkedin-in" id="linkedin"></i>
+        </div>
+      </div>
+    </header>
+
+    <!-- header section end here -->
+
+    <!-- home section start here -->
+
+    <section class="home" id="home">
+      <div class="content">
+        <h3>fresh and <span>organic</span> products for you</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing Repellendus ex
+          provident dicta tempore placeat quos.
+        </p>
+        <a href="" class="btn">shop now</a>
+      </div>
+    </section>
+
+    <!-- home section end here -->
+
+ 
+
+    <!-- categories section start here -->
+
+    <section class="categories">
+      <h1 class="heading">product <span>categories</span></h1>
+
+      <div class="box-container">
+        <div class="box">
+          <img src="image/cat-1.png" alt="" />
+          <div class="content">
+            <h3>vegetables</h3>
+            <p>upto 50% off</p>
+            <a href="" class="btn">shop now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/cat-2.png" alt="" />
+          <div class="content">
+            <h3>fresh fruits</h3>
+            <p>upto 50% off</p>
+            <a href="" class="btn">shop now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/cat-3.png" alt="" />
+          <div class="content">
+            <h3>dairy products</h3>
+            <p>upto 50% off</p>
+            <a href="" class="btn">shop now</a>
+          </div>
+        </div>
+
+        <div class="box">
+          <img src="image/cat-4.png" alt="" />
+          <div class="content">
+            <h3>fresh meat</h3>
+            <p>upto 50% off</p>
+            <a href="" class="btn">shop now</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- categories section end here -->
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+    <!-- javascript link  -->
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
